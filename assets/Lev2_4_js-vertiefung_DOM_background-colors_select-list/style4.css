@@ -1,0 +1,11 @@
+form {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
+
+input {
+    background: #333;
+    color: white;
+}
