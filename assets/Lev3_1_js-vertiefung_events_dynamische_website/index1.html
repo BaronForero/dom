@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev2_3_js-vertiefung_DOM_getElementsByTagName</title>
+    <link rel="stylesheet" href="./style1.css">
+
+</head>
+
+<body>
+    <h1>dynamic color changer</h1>
+    <p id="demo">Pick a color</p>
+    <p>
+        <button onclick="changeBackground('pink')">pink</button>
+        <button onclick="changeBackground('purple')">purple</button>
+        <button onclick="changeBackground('orange')">orange</button>
+    </p>
+    <p>
+        <input type="range" id="rot" value="255" min="0" max="255" onchange="changeHandle()" style="background:red">
+        red<br>
+        <input type="range" id="grun" value="255" min="0" max="255" onchange="changeHandle()" style="background:green">
+        green<br>
+        <input type="range" id="blau" value="255" min="0" max="255" onchange="changeHandle()" style="background:blue">
+        blue
+    </p>
+
+    <script src="./main1.js"></script>
+</body>
+
+</html>
